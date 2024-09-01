@@ -1,0 +1,36 @@
+Javascript is a dynamically typed language.
+
+Rules for variables:
+1. Variable names are case sensitive; "a" and "A" is different.
+2. Only letters, digits, underscore(_) and $ is allowed.(not even space)
+3. Only a letter, underscore(_) or $ should be 1st character.
+4. Reserved words cannot be variable names.
+
+Let, const and var:
+var -> Variable can be re-declared updated. A global scope variable.
+let -> Variable cannot be re-declared but can be updated. A block scope variable.
+const -> Variable cannot be re-declared or updated. A block scope variable.
+
+We can update let, but cannot const. But, we can update the key of a const object.
+
+If we add a number to a string, it will concatenate. "123" + 1 = "1231".
+
+Strings in JS are immutable but arrays in JS are mutable.
+
+Array methods -> pop()- deletes the last element & shift() - deletes the first element.
+
+functions prevent redundancy(repetition).
+function invoke - function ko bulana.
+
+func params -> like local variables of function -> block scope 
+
+arrow func format:
+function functionName = (params) => {
+    write the task;
+}
+
+In JS, functions can be used as parameters.
+
+Higher order function/method -> Which uses other function as a parameter or returns other function.
+
+Filter method of array -> It filters the elements of the array acc to the given condition.
