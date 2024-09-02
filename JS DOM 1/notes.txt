@@ -1,0 +1,11 @@
+writing code in separate file increases readability, makes modular(separate boxes), helps in browser caching(takes less loading time).
+
+Window object is automatically created by the browser.
+
+console.log print the object as an element. But console.dir calls the document and print its properties and methods.
+
+document.getElementsByClassName("myClass") returns a HTML doc similar to an array.
+
+When an element with the given id does not exist, it shows null in the console. And when an element with the given class does not exist, it given an empty html collection.
+
+Query selector returns the node list.
