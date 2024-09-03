@@ -1,0 +1,5 @@
+When we have double quotes in the outer side, we use single quotes in the inner side in the onClick attribute of the button. 
+
+(priority order) -> inline handling of code < JS handing of code 
+
+When we use same event on the same node, the latest node will work.
