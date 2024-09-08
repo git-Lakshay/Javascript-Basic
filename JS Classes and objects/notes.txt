@@ -1,0 +1,15 @@
+JS objects have a special property called prototype.
+
+If object and prototype have same method, object's method will be used.
+
+When we made same function in prototype and object, the function of the object is executed.
+
+In this.brand = brand, first brand is the property of object as it is written with this keyword and the second brand is the parameter used in the function.
+
+The new keyword used in making an object finds the constructor in the main class and if there is no constructor, it automatically makes a default constructor.
+
+if child and parent have same method, child's method will be used.[Method Overriding]
+
+We have to give name parameter in super keyword to invoke the parent class constructor.
+
+We can access parent class properties and method with the help of super keyword.
